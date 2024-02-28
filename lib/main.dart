@@ -1,12 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:teste/homepage.dart';
-void main () {
+import 'package:teste/home/view/home.dart';
 
-runApp(const MaterialApp(
-  home: HomePage()
-));
-
-
-
+void main(){
+  runApp(const MaterialApp(
+    home: Home(),
+  ));
 }
-//testando
